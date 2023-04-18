@@ -1,0 +1,31 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card {
+    position: absolute;
+    top: 200px; /* espaçamento de 50px em relação ao topo da página */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgb(34, 34, 34);
+    width: 300px;
+    height: 350px;
+    padding: 20px; /* espaçamento interno de 20px */
+    background-color: rgb(238, 238, 238);
+    display: inline-block;
+  }
+  
+  .card h2 {
+    color: rgb(151, 23, 23);
+  }
+  
+  .card img {
+    border-radius: 50%;
+  }
+  
